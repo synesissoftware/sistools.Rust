@@ -1,8 +1,8 @@
 # sistools.Rust - News <!-- omit in toc -->
 
 
-| Date | News Item |
-| ---- | --------- |
+| Date | News Item | Details |
+| ---- | --------- | ------- |
 
 
 <!-- ########################### end of file ########################### -->
