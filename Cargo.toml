@@ -35,7 +35,7 @@ name = "sistools"
 readme = "README.md"
 repository = "https://github.com/synesissoftware/sistools.Rust"
 rust-version = "1.74"
-version = "0.0.1"
+version = "0.0.0"
 
 
 # ##########################################################
