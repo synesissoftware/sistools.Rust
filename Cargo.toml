@@ -1,0 +1,84 @@
+
+# ##########################################################
+# Package
+
+[package]
+
+authors = [
+	"Matt Wilson <matthew@synesis.com.au>",
+]
+categories = [
+	"development-tools::build-utils",
+]
+description = "Synesis Information Systems developer tools, for Rust"
+documentation = "https://docs.rs/sistools"
+edition = "2021"
+exclude = [
+	".cargo",
+	".cursor",
+	".github",
+	".vimrc",
+	".vscode",
+	"scripts",
+	"target",
+]
+homepage = "https://github.com/synesissoftware/sistools.Rust"
+keywords = [
+	"build",
+	"cargo",
+	"developer-tools",
+	"synesis",
+	"tools",
+]
+license = "BSD-3-Clause"
+name = "sistools"
+readme = "README.md"
+repository = "https://github.com/synesissoftware/sistools.Rust"
+rust-version = "1.74"
+version = "0.0.0"
+
+
+# ##########################################################
+# Targets
+
+[lib]
+name = "sistools"
+path = "src/lib.rs"
+
+[[example]]
+name = "versions"
+path = "examples/versions/main.rs"
+
+
+# ##########################################################
+# Features
+
+[features]
+
+default = [
+]
+
+# General features:
+#
+# - "_NEVER_TO_BE_ENABLED" - this is a placeholder feature and must NEVER be specified;
+# - "null-feature" - a feature that has no effect (and, thus, is useful for simplifying driver scripts);
+
+_NEVER_TO_BE_ENABLED = []
+null-feature = []
+
+
+# Crate-specific features:
+#
+
+
+# ##########################################################
+# Dependencies
+
+[build-dependencies]
+
+[dependencies]
+
+[dev-dependencies]
+
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
